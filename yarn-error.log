@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @nomiclabs/hardhat-etherscan
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MATLAB\R2022a\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\singl\AppData\Local\Microsoft\WindowsApps;C:\Users\singl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\singl\AppData\Local\Yarn\bin;c:\users\singl\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\scripts;c:\users\singl\.local\bin;C:\Users\singl\Downloads\MinGW64\MinGW64\bin;C:\Users\singl\AppData\Roaming\npm;;C:\Users\singl\Apps\go-ipfs_v0.13.0\go-ipfs;;C:\Users\singl\Apps\go-ipfs_v0.13.0\go-ipfs;;C:\Users\singl\Apps\go-ipfs_v0.13.0\go-ipfs
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\singl\Desktop\practice\abc_1\node_modules\secp256k1\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "abc_1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+      "hardhat": "^2.10.1"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.7.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
